@@ -68,6 +68,9 @@ MainWindow::MainWindow(QWidget *parent) :
     //complet
     QPixmap FULL("C:/img/FULL.png");
     ui->img1_6->setPixmap(FULL);
+    //logo
+    QPixmap logo("C:/img/logo.png");
+    ui->img_logo->setPixmap(logo);
     //>>>
     //Main
     qDebug()<<categorii[0];
@@ -114,6 +117,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->pushButton_10->setVisible(false);
     ui->cataleat->setVisible(false);
     ui->butadmin->setVisible(false);
+    ui->label->setVisible(false);
     //Conexiunea la baza de date
     utilizatori=QSqlDatabase::addDatabase("QSQLITE");
     utilizatori.setDatabaseName("C:/sqlite/data.db");

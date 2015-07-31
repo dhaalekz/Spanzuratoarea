@@ -26,7 +26,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">MainWindow.background:rgb(50, 50, 50);</string>
+   <string notr="true">background:rgb(250, 255, 155);</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QPushButton" name="pushButton">
@@ -118,7 +118,7 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>50</x>
       <y>30</y>
       <width>371</width>
       <height>181</height>
@@ -1304,11 +1304,25 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <string>Panou Administrator</string>
     </property>
    </widget>
+   <widget class="QLabel" name="img_logo">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>-70</y>
+      <width>401</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>img_logo</zorder>
    <zorder>pushButton_10</zorder>
    <zorder>label_4</zorder>
    <zorder>pushButton</zorder>
    <zorder>pushButton_2</zorder>
-   <zorder>label</zorder>
    <zorder>line</zorder>
    <zorder>lineEdit</zorder>
    <zorder>pushButton_3</zorder>

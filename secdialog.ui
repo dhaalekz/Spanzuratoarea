@@ -25,6 +25,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(250, 255, 155);</string>
+  </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
     <rect>
@@ -121,6 +124,9 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <height>20</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255);</string>
+   </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_2">
    <property name="geometry">
@@ -130,6 +136,9 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <width>251</width>
      <height>20</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255);</string>
    </property>
    <property name="echoMode">
     <enum>QLineEdit::Password</enum>
@@ -144,6 +153,9 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <height>20</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255);</string>
+   </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_4">
    <property name="geometry">
@@ -153,6 +165,9 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <width>251</width>
      <height>20</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">

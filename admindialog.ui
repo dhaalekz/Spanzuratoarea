@@ -25,6 +25,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(250, 255, 155);</string>
+  </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
     <rect>
@@ -443,6 +446,9 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255);</string>
+   </property>
   </widget>
   <widget class="QPushButton" name="pushButton_18">
    <property name="geometry">
@@ -496,6 +502,9 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255);</string>
+   </property>
    <item>
     <property name="text">
      <string>Alege categoria..</string>
@@ -546,6 +555,9 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255);</string>
+   </property>
    <property name="maxLength">
     <number>37</number>
    </property>
@@ -558,6 +570,9 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <width>291</width>
      <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255);</string>
    </property>
    <property name="maxLength">
     <number>37</number>
@@ -572,6 +587,9 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <height>31</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255);</string>
+   </property>
    <property name="maxLength">
     <number>37</number>
    </property>
@@ -584,6 +602,9 @@ font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
      <width>291</width>
      <height>31</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(255, 255, 255);</string>
    </property>
    <property name="maxLength">
     <number>37</number>
